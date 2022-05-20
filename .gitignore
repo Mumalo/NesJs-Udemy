@@ -102,3 +102,25 @@ dist
 
 # TernJS port file
 .tern-port
+messages/.eslintrc.js
+messages/.gitignore
+messages/.prettierrc
+messages/README.md
+messages/nest-cli.json
+messages/package-lock.json
+messages/package.json
+messages/src/
+messages/test/
+messages/tsconfig.build.json
+messages/tsconfig.json
+.eslintrc.js
+.gitignore
+.prettierrc
+README.md
+nest-cli.json
+package-lock.json
+package.json
+src/
+test/
+tsconfig.build.json
+tsconfig.json

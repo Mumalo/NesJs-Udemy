@@ -1,0 +1,165 @@
+GET http://localhost:3000/messages/12
+Accept: application/json
+
+<> 2022-05-20T080331.200.json
+
+###
+
+GET http://localhost:3000/messages/12
+Accept: application/json
+
+<> 2022-05-20T080102.200.json
+
+###
+
+GET http://localhost:3000/messages/1234
+Accept: application/json
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+<> 2022-05-20T075942.200.json
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+GET http://localhost:3000/messages/1234
+Accept: application/json
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "hi there"
+}
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+###
+
+GET http://localhost:3000/messages
+Accept: application/json
+
+###
+
+GET https://httpbin.org/get?show_env=1
+Accept: application/json
+
+<> 2022-05-20T064102.200.json
+
+###
+
+GET https://httpbin.org/ip
+Accept: application/json
+
+<> 2022-05-20T064054.200.json
+
+###
+
