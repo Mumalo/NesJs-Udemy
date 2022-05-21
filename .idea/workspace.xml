@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="609d322f-449b-4604-89f9-2df123912338" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/di/src/disk/disk.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/di" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="29Oy4DzExndwekFf7Zi49loUmCC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/messages/requests.http&#10;/Users/mac/Desktop/Education/Udemy/NESJs/NesJs-Udemy/messages/src/messages/dtos/create-message.dto.ts&#10;/Users/mac/Desktop/Education/Udemy/NESJs/NesJs-Udemy/messages/src/messages/controllers/messages.controller.ts&#10;true&#10;/Users/mac/Desktop/Education/Udemy/NESJs/NesJs-Udemy/messages/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettier.import.notification.dismissed" value="true" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/di/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/di/src" />
+      <recent name="$PROJECT_DIR$/messages" />
+      <recent name="$PROJECT_DIR$/messages/src/messages" />
+      <recent name="$PROJECT_DIR$/messages/src/messages/controllers" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/messages/12" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/messages/1234" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/messages" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/messages" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;content&quot;: &quot;hi there&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://httpbin.org/get" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="show_env" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://httpbin.org/ip" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.requests#3">
+    <configuration name="get-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/messages/requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/messages/requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/messages/requests.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests#3" />
+        <item itemvalue="HTTP Request.requests#1" />
+        <item itemvalue="HTTP Request.requests#2" />
+        <item itemvalue="HTTP Request.get-requests#2" />
+        <item itemvalue="HTTP Request.get-requests#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="609d322f-449b-4604-89f9-2df123912338" name="Default Changelist" comment="" />
+      <created>1652998234193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652998234193</updated>
+      <workItem from="1652998235778" duration="5064000" />
+      <workItem from="1653070467185" duration="585000" />
+      <workItem from="1653071670228" duration="5151000" />
+      <workItem from="1653109564271" duration="13000" />
+      <workItem from="1653109583041" duration="1026000" />
+      <workItem from="1653110624689" duration="1170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="364" y="421" key="#ESLint" timestamp="1653109624736">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="364" y="421" key="#ESLint/0.0.1680.1050@0.0.1680.1050" timestamp="1653109624736" />
+    <state x="23" y="170" key="#Plugins" timestamp="1653025064740">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="23" y="170" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1653025064740" />
+    <state x="147" y="383" key="#Prettier" timestamp="1653023935513">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="147" y="383" key="#Prettier/0.0.1680.1050@0.0.1680.1050" timestamp="1653023935513" />
+    <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1653072572422">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1653072572422" />
+    <state width="919" height="295" key="GridCell.Tab.0.bottom" timestamp="1653087662015">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="919" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662015" />
+    <state width="1022" height="295" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804539" />
+    <state width="919" height="295" key="GridCell.Tab.0.center" timestamp="1653087662013">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="919" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662013" />
+    <state width="1022" height="295" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804533" />
+    <state width="919" height="295" key="GridCell.Tab.0.left" timestamp="1653087662012">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="919" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662012" />
+    <state width="1022" height="295" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804533" />
+    <state width="919" height="295" key="GridCell.Tab.0.right" timestamp="1653087662014">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="919" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662014" />
+    <state width="1022" height="295" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804534" />
+    <state x="203" y="280" width="597" height="490" key="find.popup" timestamp="1653088111770">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="203" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653088111770" />
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1653025053249">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653025053249" />
+  </component>
+</project>
