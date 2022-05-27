@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="609d322f-449b-4604-89f9-2df123912338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/di/src/disk/disk.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/db.test.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/guards/admin.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/guards/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/interceptors/serialize.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/reports/dtos/approve-report.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/reports/dtos/create-report.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/reports/dtos/get-estimate.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/reports/dtos/report.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/reports/requests.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/controllers/update-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/decorators/current-user.decorators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/dtos/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/dtos/user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/interceptors/current-user.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/middlewares/current-user.middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/requests.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/services/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/users/services/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/test/auth.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/test/setup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,20 +44,30 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/di" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/car-cv" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Mumalo/NesJs-Udemy" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="29Oy4DzExndwekFf7Zi49loUmCC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/messages/requests.http&#10;/Users/mac/Desktop/Education/Udemy/NESJs/NesJs-Udemy/messages/src/messages/dtos/create-message.dto.ts&#10;/Users/mac/Desktop/Education/Udemy/NESJs/NesJs-Udemy/messages/src/messages/controllers/messages.controller.ts&#10;true&#10;/Users/mac/Desktop/Education/Udemy/NESJs/NesJs-Udemy/messages/.gitignore" />
+    <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -38,26 +75,800 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/car-cv/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/di/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/car-cv/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/di/src" />
-      <recent name="$PROJECT_DIR$/messages" />
-      <recent name="$PROJECT_DIR$/messages/src/messages" />
-      <recent name="$PROJECT_DIR$/messages/src/messages/controllers" />
+      <recent name="$PROJECT_DIR$/car-cv/src/users" />
+      <recent name="$PROJECT_DIR$/car-cv" />
+      <recent name="$PROJECT_DIR$/car-cv/src/reports/services" />
+      <recent name="$PROJECT_DIR$/car-cv/src/reports/controllers" />
+      <recent name="$PROJECT_DIR$/car-cv/src/users/services" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="make" />
+                <option name="value" value="ford" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="mustang" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="lng" />
+                <option name="value" value="45" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="lat" />
+                <option name="value" value="45" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="mileage" />
+                <option name="value" value="20000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="year" />
+                <option name="value" value="1981" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;ford&quot;,&#10;  &quot;model&quot;: &quot;mustang&quot;,&#10;  &quot;year&quot;: 1982,&#10;  &quot;mileage&quot;: 50000,&#10;  &quot;lng&quot;: 45,&#10;  &quot;lat&quot;: 45,&#10;  &quot;price&quot;: 20000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;ford&quot;,&#10;  &quot;model&quot;: &quot;mustang&quot;,&#10;  &quot;year&quot;: 1981,&#10;  &quot;mileage&quot;: 50000,&#10;  &quot;lng&quot;: 45,&#10;  &quot;lat&quot;: 45,&#10;  &quot;price&quot;: 15000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;ford&quot;,&#10;  &quot;model&quot;: &quot;mustang&quot;,&#10;  &quot;year&quot;: 1980,&#10;  &quot;mileage&quot;: 50000,&#10;  &quot;lng&quot;: 45,&#10;  &quot;lat&quot;: 45,&#10;  &quot;price&quot;: 10000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;toyota&quot;,&#10;  &quot;model&quot;: &quot;corolla&quot;,&#10;  &quot;year&quot;: 1980,&#10;  &quot;mileage&quot;: 100000,&#10;  &quot;lng&quot;: 0,&#10;  &quot;lat&quot;: 0,&#10;  &quot;price&quot;: 5000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;toyota&quot;,&#10;  &quot;model&quot;: &quot;camry&quot;,&#10;  &quot;year&quot;: 1980,&#10;  &quot;mileage&quot;: 100000,&#10;  &quot;lng&quot;: 0,&#10;  &quot;lat&quot;: 0,&#10;  &quot;price&quot;: 5000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;toyota&quot;,&#10;  &quot;model&quot;: &quot;camry&quot;,&#10;  &quot;year&quot;: 1980,&#10;  &quot;mileage&quot;: 100000,&#10;  &quot;lng&quot;: 0,&#10;  &quot;lat&quot;: 0,&#10;  &quot;price&quot;: 2000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/reports/6" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;approved&quot;: true&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;toyota&quot;,&#10;  &quot;model&quot;: &quot;corolla&quot;,&#10;  &quot;year&quot;: 1980,&#10;  &quot;mileage&quot;: 100000,&#10;  &quot;lng&quot;: 0,&#10;  &quot;lat&quot;: 0,&#10;  &quot;price&quot;: 2000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/reports/5" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;approved&quot;: true&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOm51bGx9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="3TM9y4cwLLbwJPgj_o4R-_VThQ0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signin" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user23@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOm51bGx9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="3TM9y4cwLLbwJPgj_o4R-_VThQ0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;make&quot;: &quot;toyota&quot;,&#10;  &quot;model&quot;: &quot;corolla&quot;,&#10;  &quot;year&quot;: 1980,&#10;  &quot;mileage&quot;: 100000,&#10;  &quot;lng&quot;: 0,&#10;  &quot;lat&quot;: 0,&#10;  &quot;price&quot;: 2000&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signout" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/reports" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user23@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user23@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/auth/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;password&quot;: &quot;aaa&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/auth/4" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user@gmail.com&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signin" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/auth/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user@gmail.com&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="user@gmail.com" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth/4" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auth/2" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;ticha@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auth/3" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="ticha@gmail.com" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auth/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="ticha2@gmail.com" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="ticha@gmail.com" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/users" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="ticha@gmail.com" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;asdf&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:3000/messages/12" />
@@ -162,19 +973,19 @@
     </option>
   </component>
   <component name="RunManager" selected="HTTP Request.requests#3">
-    <configuration name="get-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" runType="Run single request">
+    <configuration name="requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/reports/requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="get-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="2" runType="Run single request">
+    <configuration name="requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/reports/requests.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/messages/requests.http" runType="Run single request">
+    <configuration name="requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/reports/requests.http" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/messages/requests.http" index="2" runType="Run single request">
+    <configuration name="requests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/users/requests.http" index="8" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/messages/requests.http" index="3" runType="Run single request">
+    <configuration name="response_times2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../../../../response_times2.js" working-dir="$PROJECT_DIR$/../../../..">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -182,8 +993,8 @@
         <item itemvalue="HTTP Request.requests#3" />
         <item itemvalue="HTTP Request.requests#1" />
         <item itemvalue="HTTP Request.requests#2" />
-        <item itemvalue="HTTP Request.get-requests#2" />
-        <item itemvalue="HTTP Request.get-requests#1" />
+        <item itemvalue="HTTP Request.requests#8" />
+        <item itemvalue="Node.js.response_times2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -200,57 +1011,118 @@
       <workItem from="1653071670228" duration="5151000" />
       <workItem from="1653109564271" duration="13000" />
       <workItem from="1653109583041" duration="1026000" />
-      <workItem from="1653110624689" duration="1170000" />
+      <workItem from="1653110624689" duration="3655000" />
+      <workItem from="1653118422964" duration="6062000" />
+      <workItem from="1653134247240" duration="18682000" />
+      <workItem from="1653366621731" duration="6135000" />
+      <workItem from="1653396168630" duration="1806000" />
+      <workItem from="1653593647529" duration="9722000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="364" y="421" key="#ESLint" timestamp="1653109624736">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="364" y="421" key="#ESLint/0.0.1680.1050@0.0.1680.1050" timestamp="1653109624736" />
-    <state x="23" y="170" key="#Plugins" timestamp="1653025064740">
+    <state x="23" y="170" key="#Plugins" timestamp="1653118776471">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="23" y="170" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1653025064740" />
+    <state x="23" y="170" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1653118776471" />
     <state x="147" y="383" key="#Prettier" timestamp="1653023935513">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="147" y="383" key="#Prettier/0.0.1680.1050@0.0.1680.1050" timestamp="1653023935513" />
-    <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1653072572422">
+    <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1653614273811">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1653072572422" />
-    <state width="919" height="295" key="GridCell.Tab.0.bottom" timestamp="1653087662015">
+    <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1653614273811" />
+    <state width="1104" height="295" key="GridCell.Tab.0.bottom" timestamp="1653617681776">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="919" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662015" />
-    <state width="1022" height="295" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804539" />
-    <state width="919" height="295" key="GridCell.Tab.0.center" timestamp="1653087662013">
+    <state width="1104" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681776" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700339" />
+    <state width="1104" height="295" key="GridCell.Tab.0.center" timestamp="1653617681774">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="919" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662013" />
-    <state width="1022" height="295" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804533" />
-    <state width="919" height="295" key="GridCell.Tab.0.left" timestamp="1653087662012">
+    <state width="1104" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681774" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700338" />
+    <state width="1104" height="295" key="GridCell.Tab.0.left" timestamp="1653617681774">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="919" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662012" />
-    <state width="1022" height="295" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804533" />
-    <state width="919" height="295" key="GridCell.Tab.0.right" timestamp="1653087662014">
+    <state width="1104" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681774" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700338" />
+    <state width="1104" height="295" key="GridCell.Tab.0.right" timestamp="1653617681775">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="919" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653087662014" />
-    <state width="1022" height="295" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1653049804534" />
-    <state x="203" y="280" width="597" height="490" key="find.popup" timestamp="1653088111770">
+    <state width="1104" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681775" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700339" />
+    <state width="905" height="364" key="GridCell.Tab.1.bottom" timestamp="1653366617023">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="203" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653088111770" />
-    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1653025053249">
+    <state width="905" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617023" />
+    <state width="905" height="364" key="GridCell.Tab.1.center" timestamp="1653366617022">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653025053249" />
+    <state width="905" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617022" />
+    <state width="905" height="364" key="GridCell.Tab.1.left" timestamp="1653366617022">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617022" />
+    <state width="905" height="364" key="GridCell.Tab.1.right" timestamp="1653366617023">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617023" />
+    <state width="905" height="364" key="GridCell.Tab.2.bottom" timestamp="1653366617025">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617025" />
+    <state width="905" height="364" key="GridCell.Tab.2.center" timestamp="1653366617024">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617024" />
+    <state width="905" height="364" key="GridCell.Tab.2.left" timestamp="1653366617023">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617023" />
+    <state width="905" height="364" key="GridCell.Tab.2.right" timestamp="1653366617024">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617024" />
+    <state width="905" height="364" key="GridCell.Tab.3.bottom" timestamp="1653366617026">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617026" />
+    <state width="905" height="364" key="GridCell.Tab.3.center" timestamp="1653366617025">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617025" />
+    <state width="905" height="364" key="GridCell.Tab.3.left" timestamp="1653366617025">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617025" />
+    <state width="905" height="364" key="GridCell.Tab.3.right" timestamp="1653366617026">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="905" height="364" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617026" />
+    <state x="203" y="280" width="597" height="490" key="find.popup" timestamp="1653366475088">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="203" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653366475088" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1653118502831">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653118502831" />
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1653371951613">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653371951613" />
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1653118467835" />
   </component>
 </project>

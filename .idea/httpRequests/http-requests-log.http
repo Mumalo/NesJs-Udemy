@@ -1,0 +1,623 @@
+GET http://localhost:3000/reports?make=ford&model=mustang&lng=45&lat=45&mileage=20000&year=1981
+
+<> 2022-05-27T031531.200.json
+
+###
+
+GET http://localhost:3000/reports?make=ford&model=mustang&lng=45&lat=45&mileage=20000&year=1981
+
+<> 2022-05-27T031441.200.json
+
+###
+
+GET http://localhost:3000/reports?make=ford&model=mustang&lng=45&lat=45&mileage=20000&year=1981
+
+<> 2022-05-27T031427.500.json
+
+###
+
+GET http://localhost:3000/reports?make=ford&model=mustang&lng=45&lat=45&mileage=20000&year=1981
+
+<> 2022-05-27T031334.500.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "ford",
+  "model": "mustang",
+  "year": 1982,
+  "mileage": 50000,
+  "lng": 45,
+  "lat": 45,
+  "price": 20000
+}
+
+<> 2022-05-27T031200.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "ford",
+  "model": "mustang",
+  "year": 1981,
+  "mileage": 50000,
+  "lng": 45,
+  "lat": 45,
+  "price": 15000
+}
+
+<> 2022-05-27T031150.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "ford",
+  "model": "mustang",
+  "year": 1980,
+  "mileage": 50000,
+  "lng": 45,
+  "lat": 45,
+  "price": 10000
+}
+
+<> 2022-05-27T031137.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 5000
+}
+
+<> 2022-05-27T031114.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 5000
+}
+
+<> 2022-05-27T031113.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 5000
+}
+
+<> 2022-05-27T031112.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 5000
+}
+
+<> 2022-05-27T031110.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "camry",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 5000
+}
+
+<> 2022-05-27T031059.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "camry",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-27T031051.201.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-27T022415.200.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-27T020916.403.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-27T020838.200.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-27T120119.200.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-27T120057.200.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-27T120015.500.json
+
+###
+
+PATCH http://localhost:3000/reports/6
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-26T115833.500.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T115815.201.json
+
+###
+
+PATCH http://localhost:3000/reports/5
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-26T115531.500.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T115517.201.json
+
+###
+
+PATCH http://localhost:3000/reports/5
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-26T115510.500.json
+
+###
+
+PATCH http://localhost:3000/reports/5
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+<> 2022-05-26T115450.500.json
+
+###
+
+PATCH http://localhost/reports/5
+Content-Type: application/json
+
+{
+  "approved": true
+}
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T112812.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T112757.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T111653.201.json
+
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "user23@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-26T111639.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T103204.403.json
+
+###
+
+POST http://localhost:3000/auth/signout
+Content-Type: application/json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 100000,
+  "lng": 0,
+  "lat": 0,
+  "price": 2000
+}
+
+<> 2022-05-26T103020.201.json
+
+###
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+}
+
+<> 2022-05-26T102913.400.json
+
+###
+
+POST http://localhost/reports
+Content-Type: application/json
+
+{
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user23@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T063528.400.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user23@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T053644.201.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T053634.400.json
+
+###
+
+PATCH http://localhost:3000/auth/3
+Content-Type: application/json
+
+{
+  "password": "aaa"
+}
+
+###
+
+PATCH http://localhost:3000/auth/3
+Content-Type: application/json
+
+{
+  "password": "aaa"
+}
+
+<> 2022-05-24T053108.404.json
+
+###
+
+PATCH http://localhost:3000/auth/4
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com"
+}
+
+<> 2022-05-24T053101.404.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051933.404.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051844.404.json
+
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051715.404.json
+
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051638.404.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051628.404.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051602.404.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051506.404.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-24T051351.404.json
+
+###
+
