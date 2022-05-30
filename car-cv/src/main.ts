@@ -1,20 +1,20 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-import {ValidationPipe} from "@nestjs/common";
-const  cookieSession  = require('cookie-session')
+import {NestFactory} from '@nestjs/core';
+import {AppModule} from './app.module';
+
+const cookieSession = require('cookie-session')
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  /*
-  Moved to the app.module file to be available in the testing environment
+    const app = await NestFactory.create(AppModule);
+    /*
+    Moved to the app.module-file to be available in the testing environment
 
-  app.use(
-      cookieSession({
-          keys: ['someKey'],
-      })
-  )
+    app.use(
+        cookieSession({
+            keys: ['someKey'],
+        })
+    )
 
-   */
+     */
     /*
   app.useGlobalPipes(
       new ValidationPipe({
@@ -23,6 +23,7 @@ async function bootstrap() {
       })
   )
      */
-  await app.listen(3000);
+    await app.listen(3000);
 }
+
 bootstrap();

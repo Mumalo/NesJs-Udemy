@@ -1,3 +1,50 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user24@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-30T014910.201.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user23@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-30T014900.400.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "user23@gmail.com",
+  "password": "password"
+}
+
+<> 2022-05-30T014313.201.json
+
+###
+
+PATCH http://localhost:3000/auth/3
+Content-Type: application/json
+
+{
+  "password": "aaa"
+}
+
+<> 2022-05-30T013223.500.json
+
+###
+
 GET http://localhost:3000/reports?make=ford&model=mustang&lng=45&lat=45&mileage=20000&year=1981
 
 <> 2022-05-27T031531.200.json
@@ -570,54 +617,6 @@ Content-Type: application/json
 }
 
 <> 2022-05-24T051638.404.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "email": "user@gmail.com",
-  "password": "password"
-}
-
-<> 2022-05-24T051628.404.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "email": "user@gmail.com",
-  "password": "password"
-}
-
-<> 2022-05-24T051602.404.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "email": "user@gmail.com",
-  "password": "password"
-}
-
-<> 2022-05-24T051506.404.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "email": "user@gmail.com",
-  "password": "password"
-}
-
-<> 2022-05-24T051351.404.json
 
 ###
 

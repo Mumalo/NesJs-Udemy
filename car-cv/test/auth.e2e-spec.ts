@@ -16,7 +16,7 @@ describe('Authentication system (e2e)', () => {
     });
 
     it('handles a signup request', () => {
-        const email = 'testUser@gmail.com'
+        const email = 'testUser4@gmail.com'
         return request(app.getHttpServer())
             .post('/auth/signup')
             .send({email, password: 'password'})
@@ -34,7 +34,7 @@ describe('Authentication system (e2e)', () => {
           To get access to the cookie, we need to get it from the response
           We need to store the cookie and use it in the subsequent requests in the test file
          */
-        const email = 'testUser@gmail.com';
+        const email = 'testUser5@gmail.com';
         const response = await request(app.getHttpServer())
             .post('/auth/signup')
             .send({email, password: 'password'})

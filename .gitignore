@@ -104,3 +104,11 @@ dist
 .tern-port
 car-cv/src/reports/
 car-cv/src/users/
+.idea/httpRequests/2022-05-30T013223.500.json
+.idea/httpRequests/2022-05-30T014313.201.json
+.idea/httpRequests/2022-05-30T014900.400.json
+.idea/httpRequests/2022-05-30T014910.201.json
+car-cv/migrations/
+car-cv/ormconfig.js
+car-cv/src/app.service.ts
+car-cv/test.sqlite

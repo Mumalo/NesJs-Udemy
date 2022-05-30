@@ -3,9 +3,7 @@ import {APP_PIPE} from "@nestjs/core";
 import {UsersModule} from './users/users.module';
 import {ReportsModule} from './reports/reports.module';
 import {TypeOrmModule} from "@nestjs/typeorm";
-import {User} from "./users/user.entity";
-import {Report} from "./reports/report.entity";
-import {AppService} from "../dist/app.service";
+import {AppService} from './app.service';
 import {ConfigModule, ConfigService} from "@nestjs/config";
 
 const cookieSession = require('cookie-session');
@@ -26,6 +24,7 @@ const cookieSession = require('cookie-session');
         }),
         UsersModule,
         ReportsModule,
+        TypeOrmModule.forRoot()
         /*
         Use config service to get
         TypeOrmModule.forRoot({
@@ -36,6 +35,7 @@ const cookieSession = require('cookie-session');
         })
          */
 
+        /*
         TypeOrmModule.forRootAsync(({
             inject: [ConfigService],
             useFactory: (config: ConfigService) => {
@@ -47,6 +47,7 @@ const cookieSession = require('cookie-session');
                 }
             }
         }))
+         */
     ],
     controllers: [],
     providers: [
@@ -61,13 +62,11 @@ const cookieSession = require('cookie-session');
 })
 
 export class AppModule {
+    constructor(private configService: ConfigService) {
+    }
+
     configure(consumer: MiddlewareConsumer) {
-        consumer
-            .apply(
-                cookieSession({
-                    keys: ['someKey'],
-                }),
-            )
+        consumer.apply(cookieSession({keys: [this.configService.get<string>('COOKIE_KEY')],}))
             .forRoutes('*');
     }
 }

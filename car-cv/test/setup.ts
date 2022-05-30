@@ -8,7 +8,7 @@ import { getConnection } from "typeorm";
 global.beforeEach(async () => {
     try {
         console.log("Removing test db")
-        await rm(join(__dirname, '..', 'db.test.sqlite'))
+        await rm(join(__dirname, '..', 'test.sqlite'))
     } catch (ignored) {
     }
 })

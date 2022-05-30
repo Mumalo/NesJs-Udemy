@@ -7,7 +7,10 @@
     <list default="true" id="609d322f-449b-4604-89f9-2df123912338" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/car-cv/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-cv/db.test.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/db.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/migrations/1653871312326-migration-name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/ormconfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/src/app.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/src/guards/admin.guard.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/src/guards/auth.guard.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/src/interceptors/serialize.interceptor.ts" afterDir="false" />
@@ -25,10 +28,15 @@
       <change afterPath="$PROJECT_DIR$/car-cv/src/users/requests.http" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/src/users/services/auth.service.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/src/users/services/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-cv/test.sqlite" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/test/auth.e2e-spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/car-cv/test/setup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-05-24T051351.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-05-24T051506.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-05-24T051602.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-05-24T051628.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -67,7 +76,7 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/car-cv/node_modules/@nestjs/schematics/dist/lib/application/files/ts/src/app.controller.spec.ts&#10;true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -87,8 +96,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/car-cv/src/users" />
       <recent name="$PROJECT_DIR$/car-cv" />
+      <recent name="$PROJECT_DIR$/car-cv/src/users" />
       <recent name="$PROJECT_DIR$/car-cv/src/reports/services" />
       <recent name="$PROJECT_DIR$/car-cv/src/reports/controllers" />
       <recent name="$PROJECT_DIR$/car-cv/src/users/services" />
@@ -97,6 +106,170 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="express:sess" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjF9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="express:sess.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="so38aqnmp7c0PrLOjD15WU1PPKs" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user24@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="express:sess" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjF9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="express:sess.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="so38aqnmp7c0PrLOjD15WU1PPKs" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user23@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user23@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJ1c2VySWQiOjV9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="session.sig" />
+                <option name="path" value="/" />
+                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/auth/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;password&quot;: &quot;aaa&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -593,40 +766,6 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="session" />
-                <option name="path" value="/" />
-                <option name="value" value="eyJ1c2VySWQiOjV9" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="session.sig" />
-                <option name="path" value="/" />
-                <option name="value" value="AxveGqzus8aON8VEKNAgxGwMhx0" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:3000/auth/signup" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;user23@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:3000/auth/signup" />
           <option name="urlPath" value="" />
@@ -972,7 +1111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.requests#3">
+  <component name="RunManager" selected="HTTP Request.requests#7">
     <configuration name="requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/reports/requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -982,19 +1121,19 @@
     <configuration name="requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/reports/requests.http" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/users/requests.http" index="8" runType="Run single request">
+    <configuration name="requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/users/requests.http" index="5" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="response_times2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../../../../response_times2.js" working-dir="$PROJECT_DIR$/../../../..">
+    <configuration name="requests#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/car-cv/src/users/requests.http" index="7" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.requests#7" />
+        <item itemvalue="HTTP Request.requests#5" />
         <item itemvalue="HTTP Request.requests#3" />
         <item itemvalue="HTTP Request.requests#1" />
         <item itemvalue="HTTP Request.requests#2" />
-        <item itemvalue="HTTP Request.requests#8" />
-        <item itemvalue="Node.js.response_times2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -1016,7 +1155,9 @@
       <workItem from="1653134247240" duration="18682000" />
       <workItem from="1653366621731" duration="6135000" />
       <workItem from="1653396168630" duration="1806000" />
-      <workItem from="1653593647529" duration="9722000" />
+      <workItem from="1653593647529" duration="11029000" />
+      <workItem from="1653802020347" duration="3722000" />
+      <workItem from="1653868488755" duration="2932000" />
     </task>
     <servers />
   </component>
@@ -1043,25 +1184,25 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="314" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1653614273811" />
-    <state width="1104" height="295" key="GridCell.Tab.0.bottom" timestamp="1653617681776">
+    <state width="773" height="295" key="GridCell.Tab.0.bottom" timestamp="1653871783178">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1104" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681776" />
+    <state width="773" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1653871783178" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700339" />
-    <state width="1104" height="295" key="GridCell.Tab.0.center" timestamp="1653617681774">
+    <state width="773" height="295" key="GridCell.Tab.0.center" timestamp="1653871783177">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1104" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681774" />
+    <state width="773" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1653871783177" />
     <state width="1659" height="295" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700338" />
-    <state width="1104" height="295" key="GridCell.Tab.0.left" timestamp="1653617681774">
+    <state width="773" height="295" key="GridCell.Tab.0.left" timestamp="1653871783176">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1104" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681774" />
+    <state width="773" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1653871783176" />
     <state width="1659" height="295" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700338" />
-    <state width="1104" height="295" key="GridCell.Tab.0.right" timestamp="1653617681775">
+    <state width="773" height="295" key="GridCell.Tab.0.right" timestamp="1653871783177">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1104" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653617681775" />
+    <state width="773" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653871783177" />
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1653557700339" />
     <state width="905" height="364" key="GridCell.Tab.1.bottom" timestamp="1653366617023">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -1111,18 +1252,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="905" height="364" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1653366617026" />
-    <state x="203" y="280" width="597" height="490" key="find.popup" timestamp="1653366475088">
+    <state x="203" y="280" width="822" height="490" key="find.popup" timestamp="1653870498603">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="203" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653366475088" />
+    <state x="203" y="280" width="822" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653870498603" />
     <state x="505" y="248" key="run.anything.popup" timestamp="1653118502831">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653118502831" />
-    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1653371951613">
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1653804427721">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653371951613" />
+    <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1653804427721" />
     <state x="88" y="233" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1653118467835" />
   </component>
 </project>

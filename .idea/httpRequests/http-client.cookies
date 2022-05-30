@@ -1,3 +1,5 @@
 # domain	path	name	value	date
 localhost	/	session	eyJ1c2VySWQiOjV9	-1
 localhost	/	session.sig	AxveGqzus8aON8VEKNAgxGwMhx0	-1
+localhost	/	express:sess	eyJ1c2VySWQiOjJ9	-1
+localhost	/	express:sess.sig	x4XmyXmlkIeseK6Al_L2RXnLizY	-1
